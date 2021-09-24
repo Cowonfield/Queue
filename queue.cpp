@@ -154,10 +154,10 @@ public:
 		void Clear() {
 			_ls._Count = 0;
 		}
-		int GetCount(Queue & ls)
+		/*int GetCount(Queue & ls)
 		{
 			 return _ls.get_count(ls._ls);
-		}
+		}*/
 		void Show() {
 			Print::print_list(_ls);
 		}
