@@ -85,10 +85,10 @@ public:
 		}
 		return -1;
 	}
-	int get_count(List& ls)
+	/*int get_count(List& ls)
 	{
 		return ls._Count;
-	}
+	}*/
 
 	friend class Print;
 	friend  class Queue;
